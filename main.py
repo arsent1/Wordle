@@ -2,8 +2,8 @@ from wordle import *
 
 def main():
     game = Wordle()
-    game.print_guess("Hello")
-    # game.start_game()
+    # game.print_letter("H", "green")
+    game.start_game()
 
 
 main()
